@@ -12,7 +12,6 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'pwd'
-                sh 'who am i'
                 sh 'npm install'
             }
         }

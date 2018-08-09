@@ -12,6 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'pwd'
+                sh 'chmod 775 -R ./'
                 sh 'npm install'
             }
         }
